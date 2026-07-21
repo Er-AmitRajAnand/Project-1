@@ -1,4 +1,4 @@
-<?php require_once('../data.php'); ?>
+<?php require_once('data.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,13 +18,27 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a href="#home" class="skip-link">Skip to content</a>
     <header class="hero">
-      <nav class="nav container">
-        <a href="#home" class="logo"><?php echo $name; ?></a>
-        <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
+      <div class="hero-glow" aria-hidden="true">
+        <div class="glow-blob glow-blob-1"></div>
+        <div class="glow-blob glow-blob-2"></div>
+      </div>
+      <div class="nav-bar" id="nav">
+        <nav class="nav container">
+          <a href="#home" class="logo"><?php echo $name; ?></a>
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </div>
