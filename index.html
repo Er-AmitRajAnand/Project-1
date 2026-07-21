@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Your Name</title>
+    <meta
+      name="description"
+      content="A modern single-page portfolio website built with HTML and CSS."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a href="#home" class="logo">YourName</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <section id="home" class="hero-content container">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1>Creative Developer & Designer</h1>
+          <p class="lead">
+            I build clean, fast, and user-friendly websites that turn ideas into
+            memorable digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Profile preview">
+          <div class="avatar">YN</div>
+          <h3>Available for freelance work</h3>
+          <p>
+            Specializing in front-end development, UI design, and responsive web
+            experiences.
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>I love crafting simple, beautiful web experiences.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I’m a web developer who enjoys turning ideas into polished interfaces.
+            My focus is on creating responsive layouts, thoughtful interactions,
+            and modern designs that feel effortless to use.
+          </p>
+          <p>
+            Whether you need a personal brand website, a portfolio, or a business landing
+            page, I can help bring your vision to life with a clean and professional result.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools and technologies I use.</h2>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Responsive Design</div>
+            <div class="skill-card">UI/UX Basics</div>
+            <div class="skill-card">SEO Friendly</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work.</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Personal Brand Site</h3>
+            <p>A sleek one-page website for showcasing services and contact information.</p>
+          </article>
+          <article class="project-card">
+            <h3>Creative Portfolio</h3>
+            <p>A visually rich layout designed to highlight projects, experience, and testimonials.</p>
+          </article>
+          <article class="project-card">
+            <h3>Business Landing Page</h3>
+            <p>A polished marketing page focused on clarity, conversion, and modern styling.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="container footer-content">
+        <div>
+          <p class="eyebrow">Let’s work together</p>
+          <h2>Ready to build something great?</h2>
+        </div>
+        <a href="mailto:your@email.com" class="btn btn-primary">Email Me</a>
+      </div>
+    </footer>
+  </body>
+</html>
