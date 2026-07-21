@@ -116,3 +116,10 @@ $education = [
         "description" => ""
     ]
 ];
+
+// --- STATS (hero) ---
+$stats = [
+    ["value" => "8+", "label" => "Years Experience"],
+    ["value" => (string) count($work_experience), "label" => "Companies"],
+    ["value" => (string) count($skills), "label" => "Core Skills"]
+];

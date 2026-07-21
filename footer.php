@@ -2,6 +2,7 @@
       <div class="container">
         <div class="footer-cta">
           <div>
+            <span class="section-number">06</span>
             <p class="eyebrow">Let’s work together</p>
             <h2>Ready to build something great?</h2>
           </div>
