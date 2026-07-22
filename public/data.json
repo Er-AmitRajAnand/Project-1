@@ -1,0 +1,245 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        {
+          "label": "Experience",
+          "path": "#experience"
+        },
+        {
+          "label": "Projects",
+          "path": "#projects"
+        },
+        {
+          "label": "Education",
+          "path": "#education"
+        }
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": false
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "Amit Raj Anand",
+    "title": "Senior Software Engineer",
+    "location": "Bangalore, India",
+    "bio": "I'm a Senior Software Engineer with 8+ years of experience building full-stack, cloud-based web applications - from requirement gathering to deployment support - using PHP, JavaScript, and modern frameworks. Let's collaborate and bring your ideas to life."
+  },
+  "contactInfo": {
+    "email": "amit.raj.anand@gmail.com",
+    "phone": "+91 82103 20955",
+    "linkedin": "https://www.linkedin.com/in/amit-raj-anand-647504110/",
+    "github": "",
+    "twitter": "",
+    "website": ""
+  },
+  "skills": {
+    "languages": [
+      "PHP",
+      "JavaScript",
+      "HTML5",
+      "CSS3"
+    ],
+    "frameworks": [
+      "CakePHP",
+      "CodeIgniter",
+      "Symfony",
+      "jQuery",
+      "Node.js",
+      "Bootstrap"
+    ],
+    "databases": [
+      "MySQL"
+    ],
+    "tools": [
+      "REST APIs",
+      "AWS",
+      "Linux (Ubuntu)",
+      "Git",
+      "SVN"
+    ]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "IDFC SO App - Liabilities Product",
+      "description": "Led end-to-end delivery (requirement gathering to deployment support) for the Liabilities Product vertical in the IDFC SO App across urban and rural regions.",
+      "technologies": [
+        "Symfony",
+        "MySQL",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "live_url": "#!",
+      "code_repo_url": "#!",
+      "cover": "/assets/project_1.jpeg"
+    },
+    {
+      "id": "2",
+      "title": "Insurance Aggregator Platform",
+      "description": "Spearheaded development of a web and mobile application automating the aggregation of multiple insurance providers for automobiles, focused mainly on the Qatar market.",
+      "technologies": [
+        "CakePHP",
+        "MySQL",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "live_url": "#!",
+      "code_repo_url": "#!",
+      "cover": "/assets/project_2.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "ApnaComplex Module Enhancements",
+      "description": "Optimized existing modules and enhanced the product with new modules designed and developed from scratch for a residential society management platform.",
+      "technologies": [
+        "CodeIgniter",
+        "MySQL",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "live_url": "#!",
+      "code_repo_url": "#!",
+      "cover": "/assets/project_3.jpeg"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "Exalogic Consulting",
+      "companyWebsite": "#!",
+      "role": "Senior Software Engineer",
+      "startDate": "Dec 2025",
+      "endDate": "Present",
+      "technologies": [
+        "PHP",
+        "JavaScript",
+        "MySQL"
+      ],
+      "keyResponsibilities": [
+        "Contributing to full-stack web application development and delivery as part of the engineering team."
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Datamatics Global Services Ltd.",
+      "companyWebsite": "#!",
+      "role": "Consultant - SE",
+      "startDate": "Aug 2022",
+      "endDate": "Nov 2025",
+      "technologies": [
+        "Symfony",
+        "MySQL",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "keyResponsibilities": [
+        "Led end-to-end delivery (requirement gathering to deployment support) for the Liabilities Product vertical in the IDFC SO App across urban and rural regions."
+      ]
+    },
+    {
+      "id": "3",
+      "company": "Amana Insurance Brokers (AmanaCompare)",
+      "companyWebsite": "#!",
+      "role": "Senior Software Engineer",
+      "startDate": "Apr 2020",
+      "endDate": "Dec 2021",
+      "technologies": [
+        "CakePHP",
+        "MySQL",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "keyResponsibilities": [
+        "Spearheaded development of a web and mobile application automating the aggregation of multiple insurance providers for automobiles, focused mainly on the Qatar market."
+      ]
+    },
+    {
+      "id": "4",
+      "company": "ApnaComplex (Eukleia Technologies)",
+      "companyWebsite": "#!",
+      "role": "Software Engineer",
+      "startDate": "Apr 2019",
+      "endDate": "Oct 2019",
+      "technologies": [
+        "CodeIgniter",
+        "MySQL",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "keyResponsibilities": [
+        "Optimized existing modules and enhanced the product with new modules designed and developed from scratch."
+      ]
+    },
+    {
+      "id": "5",
+      "company": "Athira Technologies",
+      "companyWebsite": "#!",
+      "role": "Software Engineer",
+      "startDate": "Jun 2018",
+      "endDate": "Mar 2019",
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "keyResponsibilities": [
+        "Developed and maintained web applications using PHP, MySQL, HTML, CSS, JavaScript, jQuery, and Bootstrap."
+      ]
+    },
+    {
+      "id": "6",
+      "company": "ProductLabs Solutions Pvt. Ltd.",
+      "companyWebsite": "#!",
+      "role": "Software Engineer",
+      "startDate": "Apr 2017",
+      "endDate": "May 2018",
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "keyResponsibilities": [
+        "Developed and maintained web applications using PHP, MySQL, HTML, CSS, JavaScript, jQuery, and Bootstrap."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Kalinga Institute of Industrial Technology, Bhubaneswar, Odisha",
+      "degree": "Bachelor of Technology (B.Tech.), Computer Science and Engineering",
+      "description": "",
+      "startDate": "2012",
+      "endDate": "2016"
+    },
+    {
+      "id": "2",
+      "institution": "DAV Public School, Itki Road, Hehal, Ranchi",
+      "degree": "10+2, Science",
+      "description": "",
+      "startDate": "2009",
+      "endDate": "2011"
+    }
+  ],
+  "certifications": [],
+  "hobbies": [],
+  "testimonials": []
+}
